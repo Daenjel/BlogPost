@@ -1,0 +1,53 @@
+.demo-card-wide {
+color: rgb(0, 0, 0);
+height: 176px;
+background: url('https://firebasestorage.googleapis.com/v0/b/forevertrendy.appspot.com/o/ic_launcher.png?alt=media&token=ca742412-cd35-4234-b4e7-8a12dfe7b626') center / cover;
+}
+body{
+    background-color:whitesmoke;
+}
+#container{
+    margin-left: 400px;
+    margin-top: 30px;
+    position: relative;
+    width: 600px;
+    height: 640px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(31, 28, 28, 0.2);
+    background-color: white;
+}
+.form-control{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 88%;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 120%;
+}
+.btn{
+    border-radius: 8px;
+    background-color: rgba(14, 42, 197, 0.877);
+    width: 70%;
+    height: 50px;
+    border: none;
+    margin-left: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 120%;
+    justify-content: center;
+
+}
+.btn:hover{
+    background-color: deepskyblue;
+}
+.pos{ 
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forever Trendy - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ilearn-1c5f7.appspot.com/o/ic_launcher.png?alt=media&token=26b1d613-8a59-4b48-878d-ca60e42a4192">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" media="screen" href="../assets/loginStyle.css">
+</head>
+<body>
+    <div id="container">
+        <form >
+            <img src="https://firebasestorage.googleapis.com/v0/b/ilearn-1c5f7.appspot.com/o/ic_launcher.png?alt=media&token=26b1d613-8a59-4b48-878d-ca60e42a4192" height="150px" width="150px" alt="ForeverTrendy">
+                <div>
+                    <input name="amount" type="email" class="form-control" placeholder="Enter Email" id="email"><br>
+                
+                    <input name="phoneNumber" type="password" pattern="-?[0-9]*(\.[0-9]+)?" placeholder="Enter Password" class="form-control" id="password">
+                </div>
+                <button id="login" type="submit" class="btn">Login</button>
+                <h5 style="float:left; margin:20px;"><a href="#">Forgot Password?</a></h5>
+                <h5 style="float:right; margin:20px;"><a href="signUp.html">Don't have an account?</a></h5>
+        </form>
+    </div><br>
+        <div id="google"><a style="color:transparent;font-size:200%;margin-left:100px;margin-top: 30px" href="https://accounts.google.com/signin/v2/sl/pwd?service=jotspot&passive=1209600&continue=https%3A%2F%2Fsites.google.com%2F&followup=https%3A%2F%2Fsites.google.com%2F&authuser=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">   login   </a></div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="../controllers/login.js"></script>
+</body>
+</html>
